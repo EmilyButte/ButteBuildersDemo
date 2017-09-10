@@ -1,0 +1,136 @@
+body {
+  font: 16px/150% 'Didact Gothic', sans-serif;
+  background-image: url('background.jpg');
+}
+/*====================================
+               Navbar
+======================================*/
+.navbar {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+}
+/*====================================
+               Logo
+======================================*/
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  margin-top: 1em;
+}
+/*====================================
+               Grid
+======================================*/
+.container {
+  background-color: white;
+  margin: 2em auto 2em auto;
+}
+div.row {
+  padding: 0;
+  margin-bottom: 3em;
+}
+.contact-data {
+  float: right;
+}
+div.container {
+  padding-left: 2em;
+}
+/*====================================
+               Custom Styles
+======================================*/
+.image {
+  height: 15em;
+  width: auto;
+  border-radius: 25px;
+  padding: 1em;
+}
+.btn-custom {
+  background-color: hsl(110, 56%, 16%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2f664e", endColorstr="#18563b");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2f664e), to(#18563b));
+  background-image: -moz-linear-gradient(top, #2f664e, #18563b);
+  background-image: -ms-linear-gradient(top, #2f664e, #18563b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f664e), color-stop(100%, #18563b));
+  background-image: -webkit-linear-gradient(top, #2f664e, #18563b);
+  background-image: -o-linear-gradient(top, #2f664e, #18563b);
+  background-image: linear-gradient(#2f664e, #18563b);
+  border-color: #18563b #18563b hsl(110, 56%, 11%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+.tagline h4 {
+  color: #18563b;
+  font-size: 3em;
+  text-align: center;
+}
+.tagline h2 {
+  text-align: center;
+  padding-top: 2em;
+}
+.float-right {
+  float: right;
+  padding-right: 1em;
+  padding-left: 0;
+  margin-right: 3em;
+  margin-left: 0;
+}
+.float-left p {
+  float: left;
+  padding-left: 5em;
+}
+p.contact-data {
+  font-size: 1.5em;
+  text-align: center;
+}
+.contact-data p {
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-left: 4em;
+}
+.contact-data h4 {
+  font-size: 2em;
+  padding-top: 3em;
+  padding-left: 4em;
+}
+/*====================================
+               Typography
+======================================*/
+.row h2,
+.row a {
+  color: black;
+}
+/*====================================
+               Footer
+======================================*/
+.page-footer {
+  color: white;
+  padding-top: 1.5em;
+  background-color: #18563b;
+  min-height: 5em;
+  min-width: 100%;
+}
+.page-footer p {
+  margin-left: 10em;
+  float: left;
+	font-weight: 400;
+}
+.footer-nav {
+	text-align: right;
+  margin-right: 10em;
+}
+.footer-nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+.footer-nav li:last-child {
+	margin-right: 0;
+}
+.footer-nav li a {
+  color: white;
+}

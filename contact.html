@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us</title>
+<link rel="icon" href="assets/images/home/icon.png">
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+
+<!-- Body -->
+<body>
+<!-- Nav bar -->
+<nav class="navbar navbar-inverse" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="index.html" class="navbar-brand">Butte Builders</a>
+  </div>
+  <!-- Collection of nav links and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li class="active"><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- End Nav Bar -->
+
+<div class="container">
+
+  <!-- Logo -->
+  <div class="row">
+    <div class="logo">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <img src="assets/images/home/logo.png" alt="Logo" class="logo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Tagline -->
+  <div class="row">
+    <div class="tagline">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <h4><em>Quality work, crafted by careful hands.</em></h4>
+        <h2>Have a comment or question for Butte Builders? We'd love to hear from you!</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <p class="contact-data">Complete the form below or give us a call to learn more. We’d love to hear from you!</p>
+      <div class="alert" role="alert"></div>
+      <form name="contact" id="form-contact-us" method="post" role="form" novalidate="true">
+        <div class="form-group"><label for="name">Name*</label><input type="text" class="form-control" id="name" placeholder="Name" name="name" required="">
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group"><label for="email1">Email*</label><input type="email" class="form-control" id="email" placeholder="Email" name="email" required="">
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group"><label for="phone">Phone Number*</label><input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone" required="">
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group"><label for="comments">Comment*</label><textarea class="form-control" rows="3" placeholder="Comment" id="comments" name="comments" required=""></textarea><div class="help-block with-errors"></div>
+        </div>
+        <!-- <div class="form-group"><div id="captcha_element">
+          <div style="width: 304px; height: 78px;">
+            <div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LcDxCcTAAAAAHLhWT2hY2EtPFxcY2NSl8zHKHaW&amp;co=aHR0cDovL3d3dy5mcmVlZG9tcGF0aG9sb2d5LmNvbTo4MA..&amp;hl=en&amp;v=r20170816175713&amp;size=normal&amp;cb=cgyllfcc13hx" title="recaptcha widget" width="304" height="78" frameborder="0" scrolling="no" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups allow-popups-to-escape-sandbox"></iframe>
+            </div>
+            <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea>
+          </div>
+        </div>
+        <div id="captcha-errors"></div>
+      </div> -->
+      <button type="submit" class="btn btn-primary disabled" id="btn-submit">Submit</button>
+    </form>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="col-sm-12 col-md-6 col-lg-6 contact-data">
+      <h4><strong>Contact Info</strong></h4>
+      <p><strong class="spacer">Phone: </strong> 612.916.4934</p>
+      <p><strong class="spacer">Email: </strong><a href="mailto:butte.eric@gmail.com"> butte.eric@gmail.com</a></p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="page-footer">
+  <p>&copy; Emily Goulet</p>
+  <nav class="footer-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li><!--
+      --><li><a href="about.html">About</a></li><!--
+      --><li><a href="projects.html">Projects</a></li><!--
+      --><li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- Footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
