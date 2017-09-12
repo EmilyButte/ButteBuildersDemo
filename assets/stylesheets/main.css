@@ -97,6 +97,10 @@ p.contact-data {
   padding-top: 3em;
   padding-left: 4em;
 }
+.row p {
+  margin-left: 1em;
+  margin-right: 3em;
+}
 /*====================================
                Typography
 ======================================*/
