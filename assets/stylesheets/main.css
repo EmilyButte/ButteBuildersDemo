@@ -74,12 +74,15 @@ div.container {
 }
 .float-right {
   float: right;
+  margin: auto;
   padding-right: 1em;
   padding-left: 0;
   margin-right: 3em;
   margin-left: 0;
 }
-.float-left p {
+.float-left p,
+.float-left dl,
+.float-left dt {
   float: left;
   padding-left: 5em;
 }
