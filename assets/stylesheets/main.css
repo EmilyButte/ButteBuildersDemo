@@ -21,6 +21,15 @@ body {
 .logo {
   margin-top: 1em;
 }
+
+@media screen and (max-width:320px) {
+  .logo img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /*====================================
                Grid
 ======================================*/
@@ -126,9 +135,23 @@ p.contact-data {
   float: left;
 	font-weight: 400;
 }
+@media screen and (max-width:320px) {
+  .page-footer p {
+    margin-left: 1em;
+  	font-weight: 400;
+  }
+  .footer-nav ul {
+    margin-left: 5em;
+    margin-right: 1em;
+  }
+  .footer-nav li:last-child {
+    margin-left: 5em;
+    margin-right: 1em;
+  }
+}
 .footer-nav {
 	text-align: right;
-  margin-right: 10em;
+  margin-right: 1em;
 }
 .footer-nav li {
 	display: inline-block;
@@ -136,7 +159,7 @@ p.contact-data {
 	vertical-align: top;
 }
 .footer-nav li:last-child {
-	margin-right: 0;
+	margin-right: 10em;
 }
 .footer-nav li a {
   color: white;
