@@ -56,6 +56,10 @@ div.container {
   border-radius: 25px;
   padding: 1em;
 }
+.about {
+  width: 25em;
+  height: auto;
+}
 .btn-custom {
   background-color: hsl(110, 56%, 16%) !important;
   background-repeat: repeat-x;
@@ -95,19 +99,15 @@ div.container {
   float: left;
   padding-left: 5em;
 }
-p.contact-data {
-  font-size: 1.5em;
-  text-align: center;
-}
 .contact-data p {
   font-size: 1.5em;
   padding-top: 1em;
-  padding-left: 4em;
+  padding-left: 1em;
 }
 .contact-data h4 {
   font-size: 2em;
-  padding-top: 3em;
-  padding-left: 4em;
+  padding-top: 1em;
+  padding-left: 1.5em;
 }
 .row p {
   margin-left: 1em;
@@ -123,6 +123,16 @@ p.contact-data {
 /*====================================
                Footer
 ======================================*/
+a.on-point-logo {
+  color: white;
+  float: left;
+  margin-left: 5em;
+  margin-right: 1em;
+}
+p.copy-right {
+  float: left;
+  margin-left: 10em;
+}
 .page-footer {
   color: white;
   padding-top: 1.5em;
@@ -130,18 +140,13 @@ p.contact-data {
   min-height: 5em;
   min-width: 100%;
 }
-.page-footer p {
-  margin-left: 10em;
-  float: left;
-	font-weight: 400;
-}
 @media screen and (max-width:320px) {
   .page-footer p {
     margin-left: 1em;
   	font-weight: 400;
   }
   .footer-nav ul {
-    margin-left: 5em;
+    margin-left: 1em;
     margin-right: 1em;
   }
   .footer-nav li:last-child {
@@ -149,14 +154,14 @@ p.contact-data {
     margin-right: 1em;
   }
 }
-.footer-nav {
-	text-align: right;
-  margin-right: 1em;
+.footer-nav ul {
+  float: right;
 }
 .footer-nav li {
+  font-weight: bold;
 	display: inline-block;
-	margin: 0 10px;
-	vertical-align: top;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
 .footer-nav li:last-child {
 	margin-right: 10em;
