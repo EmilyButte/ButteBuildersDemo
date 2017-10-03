@@ -42,7 +42,11 @@ div.row {
   margin-bottom: 3em;
 }
 .contact-data {
-  float: right;
+  float: left;
+  padding-left: 0;
+}
+#form-contact-us{
+  margin-right: 2em;
 }
 div.container {
   padding-left: 2em;
@@ -51,9 +55,10 @@ div.container {
                Custom Styles
 ======================================*/
 .image {
-  height: 15em;
+
+  height: 20em;
   width: auto;
-  border-radius: 25px;
+  border-radius: 5px;
   padding: 1em;
 }
 .about {
@@ -140,20 +145,6 @@ p.copy-right {
   min-height: 5em;
   min-width: 100%;
 }
-@media screen and (max-width:320px) {
-  .page-footer p {
-    margin-left: 1em;
-  	font-weight: 400;
-  }
-  .footer-nav ul {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-  .footer-nav li:last-child {
-    margin-left: 5em;
-    margin-right: 1em;
-  }
-}
 .footer-nav ul {
   float: right;
 }
@@ -168,4 +159,38 @@ p.copy-right {
 }
 .footer-nav li a {
   color: white;
+}
+@media screen and (max-width:320px) {
+  a.on-point-logo {
+    color: white;
+    margin: 0;
+  }
+  p.copy-right {
+    margin-left: 2em;
+  }
+  .page-footer {
+    min-height: 15em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .footer-nav ul {
+    margin-left: 1em;
+  }
+  .footer-nav li {
+    font-weight:normal;
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+  .footer-nav li:last-child {
+      margin-right: 1.5em;
+  }
+}
+@media screen and (max-width:320px) {
+  .image {
+    height: 15em;
+    width: 15em;
+    border-radius: 25px;
+    padding: 1em;
+  }
 }
