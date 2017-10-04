@@ -7,13 +7,17 @@
 }
 .contact-data p {
   font-size: 1.5em;
-  padding-top: 1em;
-  padding-left: 1em;
+  /*padding-top: 1em;*/
+  /*padding-left: 1em;*/
 }
 .contact-data h4 {
   font-size: 2em;
   padding-top: 1em;
-  padding-left: 1.5em;
+  /*padding-left: 1em;*/
+  text-align: center;
+}
+p.info {
+  text-align: center;
 }
 @media screen and (max-width:320px) {
   div.contact-data{
