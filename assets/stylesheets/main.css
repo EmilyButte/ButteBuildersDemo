@@ -3,20 +3,19 @@ body {
   background-image: url('background.jpg');
 }
 /*====================================
-               Navbar
+               Top Navbar
 ======================================*/
 .navbar {
-  margin-bottom: 0;
+  /*margin-bottom: 0;
   padding-bottom: 0;
-  border-radius: 0;
+  border-radius: 0;*/
 }
 /*====================================
-               Logo
+          Butte Builders Logo
 ======================================*/
 .logo img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 .logo {
   margin-top: 1em;
@@ -26,8 +25,7 @@ body {
   .logo img {
     width: 75%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 }
 /*====================================
@@ -37,34 +35,23 @@ body {
   background-color: white;
   margin: 2em auto 2em auto;
 }
-div.row {
+.row {
   padding: 0;
   margin-bottom: 3em;
 }
-.contact-data {
-  float: left;
-  padding-left: 0;
-}
-#form-contact-us{
-  margin-right: 2em;
-}
-div.container {
+.container {
   padding-left: 2em;
+  padding-right: 2em;
 }
 /*====================================
                Custom Styles
 ======================================*/
 .image {
-
   height: 20em;
   width: auto;
   border-radius: 5px;
   padding: 1em;
 }
-/*.about {
-  width: 25em;
-  height: auto;
-}*/
 .btn-custom {
   background-color: hsl(110, 56%, 16%) !important;
   background-repeat: repeat-x;
@@ -92,27 +79,15 @@ div.container {
 }
 .float-right {
   float: right;
-  margin: auto;
-  padding-right: 1em;
-  padding-left: 0;
-  margin-right: 3em;
-  margin-left: 0;
+  padding: inherit 1em inherit 0;
+  margin: inherit 3em inherit 0;
 }
-.float-left p,
-.float-left dl,
-.float-left dt {
+.float-left p ul {
   float: left;
   padding-left: 5em;
 }
-.contact-data p {
-  font-size: 1.5em;
-  padding-top: 1em;
-  padding-left: 1em;
-}
-.contact-data h4 {
-  font-size: 2em;
-  padding-top: 1em;
-  padding-left: 1.5em;
+.about ul {
+  margin-left: 3em;
 }
 .row p {
   margin-left: 1em;
@@ -134,7 +109,7 @@ a.on-point-logo {
   margin-left: 5em;
   margin-right: 1em;
 }
-p.copy-right {
+p.copyright {
   float: left;
   margin-left: 10em;
 }
@@ -149,7 +124,6 @@ p.copy-right {
   float: right;
 }
 .footer-nav li {
-  font-weight: bold;
 	display: inline-block;
   margin-right: 2em;
   margin-bottom: 2em;
@@ -160,6 +134,10 @@ p.copy-right {
 .footer-nav li a {
   color: white;
 }
+
+/*====================================
+          Footer Mobile
+======================================*/
 @media screen and (max-width:320px) {
   a.on-point-logo {
     color: white;
@@ -178,7 +156,6 @@ p.copy-right {
     margin-left: 1em;
   }
   .footer-nav li {
-    font-weight:normal;
     margin-right: 1em;
     margin-top: 1em;
   }
@@ -186,19 +163,21 @@ p.copy-right {
       margin-right: 1.5em;
   }
 }
+/*====================================
+        Other Mobile Syles
+======================================*/
 @media screen and (max-width:320px) {
   .image {
     height: 15em;
     width: 15em;
     border-radius: 25px;
-    /*padding: 1em;*/
     margin: auto;
   }
   div.row.about p {
     margin: 1em 1em 1em 1em;
     padding-left: 0;
   }
-  div.contact-data{
-    margin-bottom: 2em;
+  .about ul {
+    margin-left: 2em;
   }
 }

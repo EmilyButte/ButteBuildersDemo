@@ -11,8 +11,6 @@
 <!-- Optional Bootstrap theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/stylesheets/main.css">
-<link rel="stylesheet" href="assets/stylesheets/contact-form.css">
-
 </head>
 
 <!-- Body -->
@@ -47,7 +45,7 @@
   <div class="row">
     <div class="logo">
       <div class="col-sm-12 col-md-12 col-lg-12">
-        <a href="index.html"><img src="assets/images/home/logo.png" alt="Logo" class="logo"></a>
+        <img src="assets/images/home/logo.png" alt="Logo" class="logo">
       </div>
     </div>
   </div>
@@ -73,19 +71,18 @@
     </div>
 
     <div class="col-sm-12 col-md-6 col-lg-6">
-      <!-- <div class="alert" role="alert"></div> -->
-      <form name="contact" id="form-contact-us" method="post" role="form" novalidate="true" action="" enctype="multipart/form-data">
-        <input type="hidden" name="action" value="submit">
+      <div class="alert" role="alert"></div>
+      <form name="contact" id="form-contact-us" method="post" role="form" novalidate="true">
         <div class="form-group"><label for="name">Name*</label><input type="text" class="form-control" id="name" placeholder="Name" name="name" required="">
           <div class="help-block with-errors"></div>
         </div>
-        <div class="form-group"><label for="email">Email*</label><input type="email" class="form-control" id="email" placeholder="Email" name="email" required="">
+        <div class="form-group"><label for="email1">Email*</label><input type="email" class="form-control" id="email" placeholder="Email" name="email" required="">
           <div class="help-block with-errors"></div>
         </div>
         <div class="form-group"><label for="phone">Phone Number*</label><input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone" required="">
           <div class="help-block with-errors"></div>
         </div>
-        <div class="form-group"><label for="comments">Message*</label><textarea class="form-control" rows="3" placeholder="Comment" id="comments" name="message" required=""></textarea><div class="help-block with-errors"></div>
+        <div class="form-group"><label for="comments">Comment*</label><textarea class="form-control" rows="3" placeholder="Comment" id="comments" name="comments" required=""></textarea><div class="help-block with-errors"></div>
         </div>
         <!-- <div class="form-group"><div id="captcha_element">
           <div style="width: 304px; height: 78px;">
@@ -115,7 +112,7 @@
     </ul>
   </nav>
   <div>
-    <p class="copyright">&copy; 2017 Butte Builders</p>
+    <p class="copy-right">&copy; 2017 Butte Builders</p>
   </div>
   <div>
     <a class="on-point-logo" href="http://www.onpointpages.com/" target="_blank"><img style="color: white" src="assets\images\home\opp-logo-white-px.png">Developed by OnPoint Pages</a>
@@ -125,7 +122,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="assets/php/contact-form.php"></script>
 
 </body>
 </html>
