@@ -61,10 +61,10 @@ div.container {
   border-radius: 5px;
   padding: 1em;
 }
-.about {
+/*.about {
   width: 25em;
   height: auto;
-}
+}*/
 .btn-custom {
   background-color: hsl(110, 56%, 16%) !important;
   background-repeat: repeat-x;
@@ -191,6 +191,14 @@ p.copy-right {
     height: 15em;
     width: 15em;
     border-radius: 25px;
-    padding: 1em;
+    /*padding: 1em;*/
+    margin: auto;
+  }
+  div.row.about p {
+    margin: 1em 1em 1em 1em;
+    padding-left: 0;
+  }
+  div.contact-data{
+    margin-bottom: 2em;
   }
 }
