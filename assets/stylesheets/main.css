@@ -180,4 +180,9 @@ p.copyright {
   .about ul {
     margin-left: 2em;
   }
+  .tagline h4 {
+    color: #18563b;
+    font-size: 2em;
+    text-align: center;
+  }
 }

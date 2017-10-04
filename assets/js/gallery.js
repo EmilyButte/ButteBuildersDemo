@@ -19,7 +19,12 @@ $(document).ready(function () {
   $(this).addClass('active')
 })
 
+$('#zoom_05').elevateZoom({
+  zoomType: 'inner',
+  cursor: 'crosshair'
+})
+
 $('#thumbnailImage').click(function () {
-   $(this).attr('width', '400')
-    $(this).attr('height', '300')
+  $(this).attr('width', '400')
+  $(this).attr('height', '300')
 })
