@@ -37,11 +37,6 @@ body {
   .logo img {
     width: 100%;
   }
-  body {
-    font: 1em 'Didact Gothic', sans-serif;
-    background-image: url('background.jpg');
-    background-size: 100%;
-  }
 }
 /*====================================
                Grid
@@ -190,8 +185,8 @@ p.copyright {
 ======================================*/
 @media screen and (max-width:320px) {
   .image {
-    height: 15em;
-    width: 15em;
+    /*height: 30em;
+    width: 30em;*/
     border-radius: 25px;
     margin: auto;
   }
