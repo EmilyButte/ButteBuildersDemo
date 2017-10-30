@@ -18,9 +18,16 @@
 }
 p.info {
   text-align: center;
+  font-size: 2em;
+  line-height: 150%;
 }
 @media screen and (max-width:320px) {
   div.contact-data{
     margin-bottom: 2em;
+  }
+  p.info {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 150%;
   }
 }

@@ -27,6 +27,21 @@ body {
     display: block;
     margin: auto;
   }
+  body {
+    font: 1em 'Didact Gothic', sans-serif;
+    background-image: url('background.jpg');
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width:  767px) {
+  .logo img {
+    width: 100%;
+  }
+  body {
+    font: 1em 'Didact Gothic', sans-serif;
+    background-image: url('background.jpg');
+    background-size: 100%;
+  }
 }
 /*====================================
                Grid
@@ -93,6 +108,12 @@ body {
   margin-left: 1em;
   margin-right: 3em;
 }
+.contact-info {
+  text-align: center;
+}
+/*.contact-info p {
+  font-size: 2em;
+}*/
 /*====================================
                Typography
 ======================================*/
